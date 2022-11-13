@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_home"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_clubs"
+            android:icon="@drawable/ic_home"
+            android:title="Clubs" />
+    </group>
+
+    <item android:title="Pathfinders">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Info" />
+            <item
+                android:id="@+id/nav_honours"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Honours" />
+            <item
+                android:id="@+id/nav_classes"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Achievement classes" />
+
+            <item
+                android:id="@+id/nav_song"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Song" />
+            <item
+                android:id="@+id/nav_uniform"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Uniforms" />
+            <item
+                android:id="@+id/nav_logo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logos" />
+            <item
+                android:id="@+id/nav_resources"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Resources" />
+
+        </menu>
+    </item>
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="Profile"/>
+        </menu>
+
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

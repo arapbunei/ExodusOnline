@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/cv_item"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/standard_padding"
+    android:layout_marginTop="@dimen/standard_padding"
+    android:layout_marginEnd="@dimen/standard_padding"
+    android:elevation="@dimen/half_padding"
+    app:cardCornerRadius="@dimen/half_padding"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imv_ministry"
+            android:layout_width="@dimen/flag_size"
+            android:layout_height="@dimen/flag_size"
+            android:layout_marginStart="@dimen/standard_padding"
+            android:layout_marginTop="@dimen/standard_padding"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:srcCompat="@drawable/pfscarf" />
+
+        <TextView
+            android:id="@+id/ministry_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_padding"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@id/imv_ministry"
+            app:layout_constraintStart_toEndOf="@id/imv_ministry"
+            app:layout_constraintTop_toTopOf="@id/imv_ministry"
+            tools:text="Ministry" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="@dimen/half_padding"
+            android:layout_marginEnd="@dimen/half_padding"
+            android:layout_marginTop="@dimen/half_padding"
+            app:layout_constraintTop_toBottomOf="@id/imv_ministry"/>
+
+        <TextView
+            android:id="@+id/total_cases_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_padding"
+            android:fontFamily="@font/montserrat"
+	    android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="@dimen/double_padding"
+            app:layout_constraintBottom_toTopOf="@id/total_members_tv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ministry_name"
+            tools:text="11111" />
+
+        <TextView
+            android:id="@+id/total_members_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_padding"
+            android:layout_marginBottom="@dimen/standard_padding"
+            android:fontFamily="@font/montserrat"
+            android:text="total_members"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

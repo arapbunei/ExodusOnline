@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/image_classes_logo"
+        android:layout_width="280dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/forministry"/>
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="Name"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/text_view_name_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Description"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/text_view_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="Grade"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/text_view_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Age"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/text_view_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Color"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/text_view_club"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Club"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.3"
+        android:background="@android:color/holo_red_dark" />
+
+</LinearLayout>

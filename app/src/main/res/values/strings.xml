@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Pathfinders</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+
+    <!-- Spinner Options -->
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Do Not Identify</item>
+    </string-array>
+
+    <string-array name="club_array">
+        <item>Adventurer</item>
+        <item>Pathfinder</item>
+        <item>Ambassador</item>
+        <item>Young Adults</item>
+        <item>Public Campus Ministry</item>
+
+    </string-array>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_none">Do Not Identify</string>
+    <string name="gender_prompt">Choose your gender</string>
+
+    <string-array name="Role">
+        <item>Club Member</item>
+        <item>Club Director</item>
+        <item>Area Coordinator</item>
+    </string-array>
+    <string name="interested_in_male">Male</string>
+    <string name="interested_in_female">Female</string>
+    <string name="interested_in_anyone">Anyone</string>
+    <string name="interested_in_prompt">What are you looking for?</string>
+
+    <string-array name="Status">
+        <item>Completed</item>
+        <item>Pending</item>
+    </string-array>
+
+
+
+</resources>

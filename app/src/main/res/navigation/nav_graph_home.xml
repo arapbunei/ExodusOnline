@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_home"
+    app:startDestination="@id/introFragment">
+
+    <fragment
+        android:id="@+id/jFragment"
+        android:name="com.example.exodusonline.jFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_j" />
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.exodusonline.IntroFragment"
+        android:label="Exodus Church-Nakuru,Kenya"
+        tools:layout="@layout/fragment_intro" />
+    <fragment
+        android:id="@+id/youthsFragment"
+        android:name="com.example.exodusonline.youthsFragment"
+        android:label="fragment_youths"
+        tools:layout="@layout/fragment_youths" >
+        <action
+            android:id="@+id/action_youthsFragment_to_clubFragment"
+            app:destination="@id/clubFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clubFragment"
+        android:name="com.example.exodusonline.clubFragment"
+        android:label="fragment_club"
+        tools:layout="@layout/fragment_club" />
+
+
+</navigation>
